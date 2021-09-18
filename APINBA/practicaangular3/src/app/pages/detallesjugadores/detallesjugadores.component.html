@@ -1,0 +1,12 @@
+<p>detallesjugadores works!</p>
+<tbody>
+    <tr *ngFor="let jugador of jugadores">
+ 
+    <td><img [src]="jugador.PhotoUrl" class="perfiljugador" alt="foto del jugador"></td>
+  
+    <td class="defecto">{{jugador.Team}}</td>
+     <td class="defecto"> {{jugador.Position}}</td>
+   
+ <hr>
+ </tr>
+ </tbody>

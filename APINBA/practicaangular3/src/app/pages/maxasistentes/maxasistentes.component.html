@@ -1,0 +1,38 @@
+<h1>Máximos asistentes </h1>
+<hr>
+<thead>
+    <tr>
+    
+     <th>Nombre</th>
+     <th>Equipo</th>
+     <th>Posición</th>
+     <th>Numero de asistencias </th>
+     <th>Numero de robos</th>
+     <th>Numero de perdidas de balon</th>
+    <th>Numero de minutos</th>
+    </tr> 
+ </thead>
+ 
+ <tbody>
+   
+  <tr *ngFor="let jugador of jugadores">
+ 
+     <!-- url: https://apiangular-7804c.web.app/ -->
+     <td class="defecto">{{jugador.Name}}</td> 
+     <td class="defecto">{{jugador.Team}}</td>
+     <td class="defecto"> {{jugador.Position}}</td>
+     <td class="defecto"> {{jugador.Assists}}</td>
+     <td class="defecto"> {{jugador.Steals}}</td>
+     <td class="defecto"> {{jugador.Turnovers}}</td>
+    <td class="defecto"> {{jugador.Minutes}}</td>
+     
+ <hr>
+ </tr>
+
+ </tbody>
+ <script>
+
+
+
+ </script>
+

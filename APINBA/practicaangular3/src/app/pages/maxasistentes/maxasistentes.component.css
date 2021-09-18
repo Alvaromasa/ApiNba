@@ -1,0 +1,25 @@
+h1{
+    margin-left: 550px;
+        color: white;
+    }
+    .defecto{
+        justify-content: space-around;
+        font-size: 20px;
+        padding: 30px;
+        color: whitew;
+        font-family: 'roboto';
+        }
+        hr{
+            color: white;
+            
+        }
+        th{
+            color: white;
+        padding: 30px;
+        }
+        td{
+            color: white;
+        padding: 30px;
+        
+        
+        }

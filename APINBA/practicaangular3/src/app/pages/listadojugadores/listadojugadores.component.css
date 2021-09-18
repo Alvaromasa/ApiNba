@@ -1,0 +1,31 @@
+h1{
+    
+    margin-left: 550px;
+    color: white;
+}
+.perfiljugador{
+    height: 150px;
+    padding: 20px;
+}
+.defecto{
+    justify-content: space-around;
+    font-size: 20px;
+    color: white;
+    font-family: Roboto;
+}
+hr{
+background-color: white;
+    color: white;
+    
+}
+th{
+    color: white;
+    padding: 20px;
+    
+}
+td{
+    color: white;
+    padding: 20px;
+
+
+}

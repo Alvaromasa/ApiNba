@@ -1,0 +1,37 @@
+<thead>
+    <tr>
+    
+     <th>Nombre</th>
+     <th>Equipo</th>
+     <th>Posición</th>
+     <th>Numero de rebotes </th>
+     <th>Numero de rebotes defensivos </th>
+     <th>Numero de rebotes ofensivos </th>
+     
+    </tr> 
+ </thead>
+ 
+ <tbody>
+   
+  <tr *ngFor="let jugador of jugadores">
+ 
+     <!--  <tr ng-repeat="jugador in jugadores"> -->
+     <td class="defecto">{{jugador.Name}}</td> 
+     <td class="defecto">{{jugador.Team}}</td>
+     <td class="defecto"> {{jugador.Position}}</td>
+     <td class="defecto"> {{jugador.Rebounds}}</td>
+     <td class="defecto"> {{jugador.DefensiveRebounds}}</td>
+     <td class="defecto"> {{jugador.OffensiveRebounds}}</td>
+     
+     
+ <hr>
+ </tr>
+
+ </tbody>
+ <script>
+
+
+
+ </script>
+
+

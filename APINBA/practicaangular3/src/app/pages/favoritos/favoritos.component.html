@@ -1,0 +1,29 @@
+
+
+ <h1>Listado de jugadores de la NBA</h1>
+<hr>
+<thead>
+   <tr>
+    <th>Nombre</th>
+    <th>Apellidos</th>
+    <th>Posición</th>
+    <th>Años en la nba</th>
+    <th>Numero de puntos totales</th>
+    <th>Numero de asistencias totales</th>
+    <th>Numero de anillos totales</th>
+    
+   </tr> 
+</thead>
+
+<tbody>
+   <tr *ngFor="let jugador of listajugadores">
+    <td class="defecto">{{jugador.firstname}}</td> 
+    <td class="defecto">{{jugador.lastname}}</td>
+    <td class="defecto"> {{jugador.position}}</td>
+    <td class="defecto"> {{jugador.Agespro}}</td>
+    <td class="defecto"> {{jugador.Points}}</td>
+    <td class="defecto"> {{jugador.Assists}}</td>
+    <td class="defecto"> {{jugador.Rings}}</td>
+<hr>
+</tr>
+</tbody>

@@ -1,0 +1,38 @@
+<h1>Máximos anotadores </h1>
+<hr>
+<thead>
+    <tr>
+    
+     <th>Nombre</th>
+     <th>Equipo</th>
+     <th>Posición</th>
+     <th>Numero de puntos </th>
+     <th>Porcentaje de tiros de 2</th>
+     <th>Porcentaje de tiros de 3</th>
+     <th>Numero de minutos</th>
+    </tr> 
+ </thead>
+ 
+ <tbody>
+   
+  <tr *ngFor="let jugador of jugadores">
+ 
+     <!-- url https://apiangular-7804c.web.app/ -->
+     <td class="defecto">{{jugador.Name}}</td> 
+     <td class="defecto">{{jugador.Team}}</td>
+     <td class="defecto"> {{jugador.Position}}</td>
+     <td class="defecto"> {{jugador.Points}}</td>
+     <td class="defecto"> {{jugador.TwoPointersPercentage}}</td>
+     <td class="defecto"> {{jugador.ThreePointersPercentage}}</td>
+
+     <td class="defecto"> {{jugador.Minutes}}</td>
+     
+ <hr>
+ </tr>
+
+ </tbody>
+ <script>
+
+
+
+ </script>

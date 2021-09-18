@@ -1,0 +1,34 @@
+<h1>Listado de jugadores de la NBA</h1>
+<hr>
+<thead>
+   <tr>
+    <th>Perfil</th>
+    <th>Nombre</th>
+    <th>Procedencia</th>
+    <th>Equipo</th>
+    <th>Posición</th>
+    <th>Años NBA</th>
+    <th>Salario</th>
+    
+   </tr> 
+</thead>
+
+<tbody>
+   <tr *ngFor="let jugador of jugadores">
+    
+      <!-- url: https://apiangular-7804c.web.app/ -->
+
+
+   <td><img [src]="jugador.PhotoUrl" class="perfiljugador" alt="foto del jugador"></td>
+    <td class="defecto">{{jugador.FanDuelName}}</td>
+    <td class="defecto">{{jugador.BirthCountry}}</td>
+    <td class="defecto">{{jugador.Team}}</td>
+    <td class="defecto"> {{jugador.Position}}</td>
+    <td class="defecto"> {{jugador.Experience}}</td>
+    <td class="defecto"> {{jugador.Salary}}</td>
+
+
+  
+<hr>
+</tr>
+</tbody>
